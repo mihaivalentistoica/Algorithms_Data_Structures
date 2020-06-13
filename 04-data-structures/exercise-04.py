@@ -1,3 +1,8 @@
+# 1.Write a function which returns second-to-last (penultimate) element of a doubly linked list
+# 2.Write a function which implements extension of a linked list by another list. Functionally it should be the same as list.extend()
+# 3.*Write a function which iterates over the linked list and prints its contents.
+
+
 class LinkedElement:
     def __init__(self, value, prev=None, next_=None):
         self.value = value

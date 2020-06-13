@@ -26,3 +26,4 @@ def merge(left, right):
 l = [5, 3, 7, 1, 4, 4, 2, 10]
 l = merge_sort(l)
 print(f"Sorted list: {l}")
+

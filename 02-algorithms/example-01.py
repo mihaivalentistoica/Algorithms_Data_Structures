@@ -3,9 +3,7 @@ def bubble_sort(l):
         swapped_values = False
         for i in range(1, len(l)):
             if l[i] < l[i - 1]:
-                temp = l[i]
-                l[i] = l[i - 1]
-                l[i - 1] = temp
+                l[i], l[i-1] = l[i-1], l[i]
                 swapped_values = True
         if not swapped_values:
             break  # List is sorted!
